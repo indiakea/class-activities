@@ -3,6 +3,23 @@ nav {
   background-color: lightgrey;
 }
 
+.inline-block { 
+  display: inline-block;
+  padding: 15px;
+}
+
+  .left { 
+height: 500px;
+float: left;
+background-color: lightblue;
+width: 30px; 
+  
+}
+.right { 
+  float: left;
+  background-color: lightgreen;
+  width: 70px;
+}
 /* target the class of inline-block below */
 
 /* target the class of .left below */
