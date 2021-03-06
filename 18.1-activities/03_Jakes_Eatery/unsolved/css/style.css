@@ -27,13 +27,13 @@
 }
 
 .center {
-    width: 50%
+    width: 50%;
 }
 
 .center a {
     color: white;
     padding: 10px;
-    font-size: 18px
+    font-size: 18px;
     text-decoration: none;
     font-family: arial;
 }
