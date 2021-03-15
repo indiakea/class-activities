@@ -3,7 +3,7 @@ body {
 }
 
 /* Grid CSS */
-#herogrid {
+#heroGrid {
   margin: 0px 5%;
   display: grid;
   min-height: 500px;
@@ -12,19 +12,19 @@ body {
   grid-template-rows: 75% 25%;
   grid-template-columns: 75% 25%;
   grid-template-areas: 
-  "featuredProduct secondary product"
-  "featuredProduct CTA";
+  'featuredProduct secondaryProduct'
+  'featuredProduct CTA';
 }
 
 #featuredProduct {
   grid-area:featuredProduct;
-  background-image:(url../images/furniture1.png);
+  background-image:url(../images/furniture1.png);
 }
 
 #secondaryProduct {
   grid-area:secondaryProduct;
   grid-area: secondaryProduct;
-  background-image:(url../images/furniture2.png);
+  background-image:url(../images/furniture2.png); 
 }
 
 #CTA {grid-area:CTA;
